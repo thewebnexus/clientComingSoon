@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+* {
+    --txt-color: #000000;
+    --main-color: #CC59D2;
+    --bg-color: #ffffff;
+    --sec-color: #F487B6;
+    --thd-color: #FDE12D;
+    font-family: 'Rubik', sans-serif;
+}
+
+:root {
+    width: 100%;
+    padding: auto;
+    margin: auto;
+    background-color: var(--bg-color);
+}
+
+#headSect {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.uploadContainer {  
+    display: inherit;
+    flex-wrap: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    border: dashed var(--txt-color);
+    height: 850px;
+    width: 1680px;
+}
+
+
+.bx-loader-alt {
+    font-size: 350px;
+}
