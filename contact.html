@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> :: Contact</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Icon CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.css.">
+    <link rel="stylesheet" href="./css/bootstrap.css.map">
+</head>
+
+<body>
+    
+</body>
+<div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="./index.html">Home</a>
+    <a href="./booking.html">Booking</a>
+    <a href="./contact.html">Contact</a>
+    <a href="./admin.html">Login/Register</a>
+    <div class="socials">
+        <a><i class='bx bxl-facebook-circle'></i></a>
+        <a><i class='bx bxl-instagram-alt' ></i></a>
+    </div>
+    <div class="poweredBy">
+        <a href="https://thewebnexus.com/">Powered By <span>The Web Nexus</span></a>
+    </div>        
+  </div>
+  
+  <div id="main">
+    <button class="openbtn" onclick="openNav()">&#9776; Open</button>
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+      
+          <label for="email">Email</label><br>
+          <input type="email" id="email" required>            
+        
+            <br>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+    </div>        
+    
+
+
+    <!-- Main JS -->
+    <script src="./js/main.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/bootstrap.js.map"></script>
+</html>
